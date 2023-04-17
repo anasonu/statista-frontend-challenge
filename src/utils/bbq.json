@@ -1,0 +1,342 @@
+[
+  {
+    "brand": "Algon",
+    "price": "1230.96",
+    "date_introduced": "2018",
+    "device_type": "Electric Grill",
+    "quality": "90",
+    "safety": "57",
+    "design": "76",
+    "service": "47",
+    "cleaning": "38",
+    "food_taste": "99",
+    "reviews": [
+      {
+        "stars": 5,
+        "total": "14"
+      },
+      {
+        "stars": 4,
+        "total": "34"
+      },
+      {
+        "stars": 3,
+        "total": "20"
+      },
+      {
+        "stars": 2,
+        "total": "90"
+      },
+      {
+        "stars": 1,
+        "total": "5"
+      }
+    ]
+  },
+  {
+    "brand": "Tepro",
+	"price": "1261.27",
+	"date_introduced": "2016",
+	"device_type": "Electric Grill",
+	"quality": "2",
+	"safety": "96",
+	"design": "73",
+	"service": "10",
+	"cleaning": "26",
+	"food_taste": "89",
+	"reviews": [
+		{
+			"stars": 5,
+			"total": "91"
+		},
+		{
+			"stars": 4,
+			"total": "6"
+		},
+		{
+			"stars": 3,
+			"total": "10"
+		},
+		{
+			"stars": 2,
+			"total": "13"
+		},
+		{
+			"stars": 1,
+			"total": "9"
+		}
+	]
+  },
+  {
+    "brand": "Weber",
+    "price": "384.43",
+    "date_introduced": "2004",
+    "device_type": "Electric Grill",
+    "quality": "54",
+    "safety": "24",
+    "design": "88",
+    "service": "66",
+    "cleaning": "1",
+    "food_taste": "69",
+    "reviews": [
+      {
+        "stars": 5,
+        "total": "49"
+      },
+      {
+        "stars": 4,
+        "total": "13"
+      },
+      {
+        "stars": 3,
+        "total": "74"
+      },
+      {
+        "stars": 2,
+        "total": "41"
+      },
+      {
+        "stars": 1,
+        "total": "72"
+      }
+    ]
+  },
+  {
+    "brand": "Tepro",
+    "price": "1977.25",
+    "date_introduced": "2002",
+    "device_type": "Gas Grill",
+    "quality": "81",
+    "safety": "5",
+    "design": "49",
+    "service": "66",
+    "cleaning": "77",
+    "food_taste": "90",
+    "reviews": [
+      {
+        "stars": 5,
+        "total": "88"
+      },
+      {
+        "stars": 4,
+        "total": "40"
+      },
+      {
+        "stars": 3,
+        "total": "67"
+      },
+      {
+        "stars": 2,
+        "total": "14"
+      },
+      {
+        "stars": 1,
+        "total": "30"
+      }
+    ]
+  },
+  {
+    "brand": "Weber",
+    "price": "245.19",
+    "date_introduced": "2005",
+    "device_type": "Charcoal Grill",
+    "quality": "29",
+    "safety": "82",
+    "design": "21",
+    "service": "63",
+    "cleaning": "84",
+    "food_taste": "11",
+    "reviews": [
+      {
+        "stars": 5,
+        "total": "51"
+      },
+      {
+        "stars": 4,
+        "total": "54"
+      },
+      {
+        "stars": 3,
+        "total": "47"
+      },
+      {
+        "stars": 2,
+        "total": "56"
+      },
+      {
+        "stars": 1,
+        "total": "19"
+      }
+    ]
+  },
+  {
+    "brand": "Algon",
+    "price": "557.36",
+    "date_introduced": "2018",
+    "device_type": "Pellet Grill",
+    "quality": "57",
+    "safety": "20",
+    "design": "99",
+    "service": "34",
+    "cleaning": "99",
+    "food_taste": "98",
+    "reviews": [
+      {
+        "stars": 5,
+        "total": "95"
+      },
+      {
+        "stars": 4,
+        "total": "36"
+      },
+      {
+        "stars": 3,
+        "total": "58"
+      },
+      {
+        "stars": 2,
+        "total": "93"
+      },
+      {
+        "stars": 1,
+        "total": "27"
+      }
+    ]
+  },
+  {
+    "brand": "Bosch",
+    "price": "601.55",
+    "date_introduced": "2008",
+    "device_type": "Electric Grill",
+    "quality": "61",
+    "safety": "58",
+    "design": "64",
+    "service": "7",
+    "cleaning": "22",
+    "food_taste": "61",
+    "reviews": [
+      {
+        "stars": 5,
+        "total": "12"
+      },
+      {
+        "stars": 4,
+        "total": "76"
+      },
+      {
+        "stars": 3,
+        "total": "44"
+      },
+      {
+        "stars": 2,
+        "total": "18"
+      },
+      {
+        "stars": 1,
+        "total": "39"
+      }
+    ]
+  },
+  {
+    "brand": "Coleman",
+    "price": "823.86",
+    "date_introduced": "2008",
+    "device_type": "Gas Grill",
+    "quality": "12",
+    "safety": "94",
+    "design": "17",
+    "service": "85",
+    "cleaning": "78",
+    "food_taste": "76",
+    "reviews": [
+      {
+        "stars": 5,
+        "total": "31"
+      },
+      {
+        "stars": 4,
+        "total": "93"
+      },
+      {
+        "stars": 3,
+        "total": "12"
+      },
+      {
+        "stars": 2,
+        "total": "24"
+      },
+      {
+        "stars": 1,
+        "total": "31"
+      }
+    ]
+  },
+  {
+    "brand": "Coleman",
+    "price": "1443.77",
+    "date_introduced": "2013",
+    "device_type": "Electric Grill",
+    "quality": "72",
+    "safety": "14",
+    "design": "19",
+    "service": "79",
+    "cleaning": "73",
+    "food_taste": "41",
+    "reviews": [
+      {
+        "stars": 5,
+        "total": "83"
+      },
+      {
+        "stars": 4,
+        "total": "92"
+      },
+      {
+        "stars": 3,
+        "total": "38"
+      },
+      {
+        "stars": 2,
+        "total": "16"
+      },
+      {
+        "stars": 1,
+        "total": "93"
+      }
+    ]
+  },
+  {
+    "brand": "Bosch",
+    "price": "1451.64",
+    "date_introduced": "2004",
+    "device_type": "Electric Grill",
+    "quality": "42",
+    "safety": "65",
+    "design": "99",
+    "service": "93",
+    "cleaning": "21",
+    "food_taste": "7",
+    "reviews": [
+      {
+        "stars": 5,
+        "total": "28"
+      },
+      {
+        "stars": 4,
+        "total": "43"
+      },
+      {
+        "stars": 3,
+        "total": "83"
+      },
+      {
+        "stars": 2,
+        "total": "2"
+      },
+      {
+        "stars": 1,
+        "total": "8"
+      }
+    ]
+  }
+]
