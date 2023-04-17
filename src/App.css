@@ -1,9 +1,20 @@
 body {
   background-color: #F9FAFB;
-
+  padding: 10%;
 }
 
 .App {
   text-align: center;
 }
 
+.hover:hover {
+  background-color: #F9FAFB;
+}
+
+/* .row:has(.selected) {
+  background-color: #edf1f6;
+} */
+
+.row.selected {
+  background-color: #edf1f6;
+}

@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "brand": "Algon",
     "price": "1230.96",
     "date_introduced": "2018",
@@ -34,40 +35,42 @@
     ]
   },
   {
+    "id": 2,
     "brand": "Tepro",
-	"price": "1261.27",
-	"date_introduced": "2016",
-	"device_type": "Electric Grill",
-	"quality": "2",
-	"safety": "96",
-	"design": "73",
-	"service": "10",
-	"cleaning": "26",
-	"food_taste": "89",
-	"reviews": [
-		{
-			"stars": 5,
-			"total": "91"
-		},
-		{
-			"stars": 4,
-			"total": "6"
-		},
-		{
-			"stars": 3,
-			"total": "10"
-		},
-		{
-			"stars": 2,
-			"total": "13"
-		},
-		{
-			"stars": 1,
-			"total": "9"
-		}
-	]
+    "price": "1261.27",
+    "date_introduced": "2016",
+    "device_type": "Electric Grill",
+    "quality": "2",
+    "safety": "96",
+    "design": "73",
+    "service": "10",
+    "cleaning": "26",
+    "food_taste": "89",
+    "reviews": [
+      {
+        "stars": 5,
+        "total": "91"
+      },
+      {
+        "stars": 4,
+        "total": "6"
+      },
+      {
+        "stars": 3,
+        "total": "10"
+      },
+      {
+        "stars": 2,
+        "total": "13"
+      },
+      {
+        "stars": 1,
+        "total": "9"
+      }
+    ]
   },
   {
+    "id": 3,
     "brand": "Weber",
     "price": "384.43",
     "date_introduced": "2004",
@@ -102,6 +105,7 @@
     ]
   },
   {
+    "id": 4,
     "brand": "Tepro",
     "price": "1977.25",
     "date_introduced": "2002",
@@ -136,6 +140,7 @@
     ]
   },
   {
+    "id": 5,
     "brand": "Weber",
     "price": "245.19",
     "date_introduced": "2005",
@@ -170,6 +175,7 @@
     ]
   },
   {
+    "id": 6,
     "brand": "Algon",
     "price": "557.36",
     "date_introduced": "2018",
@@ -204,6 +210,7 @@
     ]
   },
   {
+    "id": 7,
     "brand": "Bosch",
     "price": "601.55",
     "date_introduced": "2008",
@@ -238,6 +245,7 @@
     ]
   },
   {
+    "id": 8,
     "brand": "Coleman",
     "price": "823.86",
     "date_introduced": "2008",
@@ -272,6 +280,7 @@
     ]
   },
   {
+    "id": 9,
     "brand": "Coleman",
     "price": "1443.77",
     "date_introduced": "2013",
@@ -306,6 +315,7 @@
     ]
   },
   {
+    "id": 10,
     "brand": "Bosch",
     "price": "1451.64",
     "date_introduced": "2004",
