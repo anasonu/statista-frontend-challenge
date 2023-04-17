@@ -3,6 +3,7 @@ import { Grid, Col, Card, Text, Metric } from '@tremor/react';
 import List from './components/List';
 import Reviews from './components/Reviews';
 import { useState, createContext } from 'react';
+import Percentages from './components/Percentages';
 // import data from './utils/bbq.json';
 
 export const CheckedItemsContext = createContext();
@@ -14,9 +15,6 @@ function App() {
     checkedItems,
     setCheckedItems,
   };
-
-  // const result = data.filter(item => checkedItems.includes(item.id))
-  // console.log(result)
 
   return (
     <CheckedItemsContext.Provider value={passedContext}>
@@ -37,8 +35,7 @@ function App() {
             </Card>
           </Col>
           <Card>
-            <Text>Reviews</Text>
-            <Metric>KPI 4</Metric>
+            <Percentages />
           </Card>
         </Grid>
       </div>

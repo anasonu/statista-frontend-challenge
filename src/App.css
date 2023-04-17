@@ -18,3 +18,14 @@ body {
 .row.selected {
   background-color: #edf1f6;
 }
+
+.percentage-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.percentage-box {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
