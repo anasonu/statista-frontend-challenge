@@ -13,24 +13,24 @@
     "food_taste": "99",
     "reviews": [
       {
-        "stars": 5,
-        "total": "14"
+        "name": "5 stars",
+        "value": 14
       },
       {
-        "stars": 4,
-        "total": "34"
+        "name": "4 stars",
+        "value": 34
       },
       {
-        "stars": 3,
-        "total": "20"
+        "name": "3 stars",
+        "value": 20
       },
       {
-        "stars": 2,
-        "total": "90"
+        "name": "2 stars",
+        "value": 90
       },
       {
-        "stars": 1,
-        "total": "5"
+        "name": "1 stars",
+        "value": 5
       }
     ]
   },
@@ -48,24 +48,24 @@
     "food_taste": "89",
     "reviews": [
       {
-        "stars": 5,
-        "total": "91"
+        "name": "5 stars",
+        "value": 22
       },
       {
-        "stars": 4,
-        "total": "6"
+        "name": "4 stars",
+        "value": 6
       },
       {
-        "stars": 3,
-        "total": "10"
+        "name": "3 stars",
+        "value": 10
       },
       {
-        "stars": 2,
-        "total": "13"
+        "name": "2 stars",
+        "value": 13
       },
       {
-        "stars": 1,
-        "total": "9"
+        "name": "1 stars",
+        "value": 9
       }
     ]
   },
@@ -83,24 +83,24 @@
     "food_taste": "69",
     "reviews": [
       {
-        "stars": 5,
-        "total": "49"
+        "name": "5 stars",
+        "value": 49
       },
       {
-        "stars": 4,
-        "total": "13"
+        "name": "4 stars",
+        "value": 13
       },
       {
-        "stars": 3,
-        "total": "74"
+        "name": "3 stars",
+        "value": 74
       },
       {
-        "stars": 2,
-        "total": "41"
+        "name": "2 stars",
+        "value": 41
       },
       {
-        "stars": 1,
-        "total": "72"
+        "name": "1 stars",
+        "value": 72
       }
     ]
   },
@@ -118,24 +118,24 @@
     "food_taste": "90",
     "reviews": [
       {
-        "stars": 5,
-        "total": "88"
+        "name": "5 stars",
+        "value": 88
       },
       {
-        "stars": 4,
-        "total": "40"
+        "name": "4 stars",
+        "value": 40
       },
       {
-        "stars": 3,
-        "total": "67"
+        "name": "3 stars",
+        "value": 67
       },
       {
-        "stars": 2,
-        "total": "14"
+        "name": "2 stars",
+        "value": 14
       },
       {
-        "stars": 1,
-        "total": "30"
+        "name": "1 stars",
+        "value": 30
       }
     ]
   },
@@ -153,24 +153,24 @@
     "food_taste": "11",
     "reviews": [
       {
-        "stars": 5,
-        "total": "51"
+        "name": "5 stars",
+        "value": 51
       },
       {
-        "stars": 4,
-        "total": "54"
+        "name": "4 stars",
+        "value": 54
       },
       {
-        "stars": 3,
-        "total": "47"
+        "name": "3 stars",
+        "value": 47
       },
       {
-        "stars": 2,
-        "total": "56"
+        "name": "2 stars",
+        "value": 56
       },
       {
-        "stars": 1,
-        "total": "19"
+        "name": "1 stars",
+        "value": 19
       }
     ]
   },
@@ -188,24 +188,24 @@
     "food_taste": "98",
     "reviews": [
       {
-        "stars": 5,
-        "total": "95"
+        "name": "5 stars",
+        "value": 95
       },
       {
-        "stars": 4,
-        "total": "36"
+        "name": "4 stars",
+        "value": 36
       },
       {
-        "stars": 3,
-        "total": "58"
+        "name": "3 stars",
+        "value": 58
       },
       {
-        "stars": 2,
-        "total": "93"
+        "name": "2 stars",
+        "value": 93
       },
       {
-        "stars": 1,
-        "total": "27"
+        "name": "1 stars",
+        "value": 27
       }
     ]
   },
@@ -223,24 +223,24 @@
     "food_taste": "61",
     "reviews": [
       {
-        "stars": 5,
-        "total": "12"
+        "name": "5 stars",
+        "value": 12
       },
       {
-        "stars": 4,
-        "total": "76"
+        "name": "4 stars",
+        "value": 76
       },
       {
-        "stars": 3,
-        "total": "44"
+        "name": "3 stars",
+        "value": 44
       },
       {
-        "stars": 2,
-        "total": "18"
+        "name": "2 stars",
+        "value": 18
       },
       {
-        "stars": 1,
-        "total": "39"
+        "name": "1 stars",
+        "value": 39
       }
     ]
   },
@@ -258,24 +258,24 @@
     "food_taste": "76",
     "reviews": [
       {
-        "stars": 5,
-        "total": "31"
+        "name": "5 stars",
+        "value": 31
       },
       {
-        "stars": 4,
-        "total": "93"
+        "name": "4 stars",
+        "value": 93
       },
       {
-        "stars": 3,
-        "total": "12"
+        "name": "3 stars",
+        "value": 12
       },
       {
-        "stars": 2,
-        "total": "24"
+        "name": "2 stars",
+        "value": 24
       },
       {
-        "stars": 1,
-        "total": "31"
+        "name": "1 stars",
+        "value": 31
       }
     ]
   },
@@ -293,24 +293,24 @@
     "food_taste": "41",
     "reviews": [
       {
-        "stars": 5,
-        "total": "83"
+        "name": "5 stars",
+        "value": 83
       },
       {
-        "stars": 4,
-        "total": "92"
+        "name": "4 stars",
+        "value": 92
       },
       {
-        "stars": 3,
-        "total": "38"
+        "name": "3 stars",
+        "value": 38
       },
       {
-        "stars": 2,
-        "total": "16"
+        "name": "2 stars",
+        "value": 16
       },
       {
-        "stars": 1,
-        "total": "93"
+        "name": "1 stars",
+        "value": 93
       }
     ]
   },
@@ -328,24 +328,24 @@
     "food_taste": "7",
     "reviews": [
       {
-        "stars": 5,
-        "total": "28"
+        "name": "5 stars",
+        "value": 28
       },
       {
-        "stars": 4,
-        "total": "43"
+        "name": "4 stars",
+        "value": 43
       },
       {
-        "stars": 3,
-        "total": "83"
+        "name": "3 stars",
+        "value": 83
       },
       {
-        "stars": 2,
-        "total": "2"
+        "name": "2 stars",
+        "value": 2
       },
       {
-        "stars": 1,
-        "total": "8"
+        "name": "1 stars",
+        "value": 8
       }
     ]
   }

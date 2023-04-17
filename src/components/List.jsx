@@ -17,8 +17,6 @@ import data from '../utils/bbq.json';
 function List() {
   const { checkedItems } = useContext(CheckedItemsContext);
 
-  console.log(checkedItems)
-
   return (
     <Card>
       <Title>List of Available BBQs</Title>
