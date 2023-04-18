@@ -1,33 +1,27 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { MultiSelectBox, MultiSelectBoxItem, Flex, Title } from '@tremor/react';
 import { CheckedItemsContext } from '../App';
 import data from '../utils/bbq.json'
 
 function Filters() {
-  const { filteredItems, setFilteredItems } = useContext(CheckedItemsContext);
+  const { setFilteredItems } = useContext(CheckedItemsContext);
+  const [value, setValue] = useState("");
 
   const handleBrandChange = (event) => {
-    if(filteredItems.length > 0) {
-      setFilteredItems(filteredItems => filteredItems.filter(item => event.includes(item.brand)))
-    } else {
-      setFilteredItems(data.filter(item => event.includes(item.brand)))
-    }
+    setValue(event)
+    setFilteredItems(data.filter(item => event.includes(item.brand)))
   }
 
   const handleDeviceChange = (event) => {
-    if (filteredItems.length > 0) {
-      setFilteredItems(filteredItems => filteredItems.filter(item => event.includes(item.device_type)))
-    } else {
-      setFilteredItems(data.filter(item => event.includes(item.device_type)))
-    }
+    setValue(event);
+    setFilteredItems(data.filter(item => event.includes(item.device_type)));
   }
-
 
   return (
     <Flex className='justify-start gap-2.5'>
       <div>
         <Title className='filter-title'>Brand</Title>
-        <MultiSelectBox onValueChange={event => handleBrandChange(event)}>
+        <MultiSelectBox value={value} onValueChange={event => handleBrandChange(event)}>
           <MultiSelectBoxItem value='Algon' text='Algon' />
           <MultiSelectBoxItem value='Tepro' text='Tepro' />
           <MultiSelectBoxItem value='Weber' text='Weber' />
