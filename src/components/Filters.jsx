@@ -46,7 +46,7 @@ function Filters() {
       </div>
       <div>
         <Title className='filter-title'>Price</Title>
-        <MultiSelectBox>
+        <MultiSelectBox disabled>
           <MultiSelectBoxItem value='1' text='$300 - $800' />
           <MultiSelectBoxItem value='2' text='$801 - $1300' />
           <MultiSelectBoxItem value='3' text='> $1300' />
