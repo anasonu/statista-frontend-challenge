@@ -1,19 +1,23 @@
 import './App.css';
-import { Grid, Col, Card, Text, Metric } from '@tremor/react';
+import { Grid, Col, Card, Text } from '@tremor/react';
 import List from './components/List';
 import Reviews from './components/Reviews';
 import { useState, createContext } from 'react';
 import Percentages from './components/Percentages';
+import Filters from './components/Filters';
 // import data from './utils/bbq.json';
 
 export const CheckedItemsContext = createContext();
 
 function App() {
   const [checkedItems, setCheckedItems] = useState([]);
+  const [filteredItems, setFilteredItems] = useState([]);
 
   const passedContext = {
     checkedItems,
     setCheckedItems,
+    filteredItems,
+    setFilteredItems
   };
 
   return (
@@ -22,8 +26,8 @@ function App() {
         <Grid numCols={2} className='gap-2'>
           <Col numColSpan={1} numColSpanLg={2}>
             <Card>
-              <Text>Title</Text>
-              <Metric>KPI 1</Metric>
+              {/* <Text>Title</Text> */}
+              <Filters />
             </Card>
           </Col>
           <Col numColSpan={1} numColSpanLg={1}>

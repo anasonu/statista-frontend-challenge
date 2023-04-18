@@ -15,7 +15,9 @@ import Checkbox from './Checkbox';
 import data from '../utils/bbq.json';
 
 function List() {
-  const { checkedItems } = useContext(CheckedItemsContext);
+  const { checkedItems, filteredItems } = useContext(CheckedItemsContext);
+
+  const tableData = filteredItems.length > 0 ? filteredItems : data;
 
   return (
     <Card className='table-container'>
@@ -31,7 +33,7 @@ function List() {
           </TableRow>
         </TableHead>
         <TableBody>
-          {data.map((item, index) => (
+          {tableData.map((item, index) => (
             <TableRow key={index} className={checkedItems.includes(item.id) ? 'row hover selected' : 'row hover'}>
               <TableHeaderCell>
                 <Checkbox id={item.id} />

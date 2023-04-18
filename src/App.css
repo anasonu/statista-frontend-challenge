@@ -52,3 +52,7 @@ body {
 .table-container {
   height: 740px;
 }
+
+.filter-title {
+  font-size: 12px;
+}
