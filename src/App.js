@@ -1,5 +1,5 @@
 import './App.css';
-import { Grid, Col, Card, Text } from '@tremor/react';
+import { Grid, Col, Card } from '@tremor/react';
 import List from './components/List';
 import Reviews from './components/Reviews';
 import { useState, createContext } from 'react';

@@ -1,14 +1,25 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { MultiSelectBox, MultiSelectBoxItem, Flex, Title } from '@tremor/react';
 import { CheckedItemsContext } from '../App';
 import data from '../utils/bbq.json'
 
 function Filters() {
   const { filteredItems, setFilteredItems } = useContext(CheckedItemsContext);
-  const [ value, setValue ] = useState([""]);
 
-  const handleChange = (event) => {
-    setFilteredItems(data.filter(item => event.includes(item.brand)))
+  const handleBrandChange = (event) => {
+    if(filteredItems.length > 0) {
+      setFilteredItems(filteredItems => filteredItems.filter(item => event.includes(item.brand)))
+    } else {
+      setFilteredItems(data.filter(item => event.includes(item.brand)))
+    }
+  }
+
+  const handleDeviceChange = (event) => {
+    if (filteredItems.length > 0) {
+      setFilteredItems(filteredItems => filteredItems.filter(item => event.includes(item.device_type)))
+    } else {
+      setFilteredItems(data.filter(item => event.includes(item.device_type)))
+    }
   }
 
 
@@ -16,7 +27,7 @@ function Filters() {
     <Flex className='justify-start gap-2.5'>
       <div>
         <Title className='filter-title'>Brand</Title>
-        <MultiSelectBox onValueChange={event => handleChange(event)}>
+        <MultiSelectBox onValueChange={event => handleBrandChange(event)}>
           <MultiSelectBoxItem value='Algon' text='Algon' />
           <MultiSelectBoxItem value='Tepro' text='Tepro' />
           <MultiSelectBoxItem value='Weber' text='Weber' />
@@ -26,7 +37,7 @@ function Filters() {
       </div>
       <div>
         <Title className='filter-title'>Device Type</Title>
-        <MultiSelectBox onValueChange={handleChange}>
+        <MultiSelectBox onValueChange={event => handleDeviceChange(event)}>
           <MultiSelectBoxItem value='Electric Grill' text='Electric Grill' />
           <MultiSelectBoxItem value='Gas Grill' text='Gas Grill' />
           <MultiSelectBoxItem value='Charcoal Grill' text='Charcoal Grill' />
@@ -35,7 +46,7 @@ function Filters() {
       </div>
       <div>
         <Title className='filter-title'>Price</Title>
-        <MultiSelectBox onValueChange={handleChange}>
+        <MultiSelectBox>
           <MultiSelectBoxItem value='1' text='$300 - $800' />
           <MultiSelectBoxItem value='2' text='$801 - $1300' />
           <MultiSelectBoxItem value='3' text='> $1300' />
