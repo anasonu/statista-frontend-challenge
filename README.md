@@ -30,7 +30,7 @@ Each filter is multiselection type, so the user can select different brands at t
 
 The user can only select one item at a time. In the future, they'll be able to select 2 or 3 to make comparisons in a different page. This functionality couldn't be finished due to lack of time.
 
-Right now, the user can click on one item and new information will be shown in the next section.
+Right now, the user can click on one item and new information will be shown in the next section. When an item is selected, the user will have to de-select the item before they try to select a new one (lack of time to fix this, sorry!)
 
 
 ### Reviews
