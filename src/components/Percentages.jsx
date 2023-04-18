@@ -13,30 +13,30 @@ function Percentages() {
     <div className='percentage-flex'>
       <div className='percentage-box'>
 
-        <div>
+        <div className={selectedData?.quality >= 50 ? 'green' : 'orange'}>
           <Text>Quality</Text>
           <Metric>{selectedData?.quality}%</Metric>
         </div>
-        <div>
+        <div className={selectedData?.design >= 50 ? 'green' : 'orange'}>
           <Text>Design</Text>
           <Metric>{selectedData?.design}%</Metric>
         </div>
-        <div>
+        <div className={selectedData?.cleaning >= 50 ? 'green' : 'orange'}>
           <Text>Cleaning</Text>
           <Metric>{selectedData?.cleaning}%</Metric>
         </div>
       </div>
 
       <div className='percentage-box'>
-        <div>
+        <div className={selectedData?.safety >= 50 ? 'green' : 'orange'}>
           <Text>Safety</Text>
           <Metric>{selectedData?.safety}%</Metric>
         </div>
-        <div>
+        <div className={selectedData?.service >= 50 ? 'green' : 'orange'}>
           <Text>Service</Text>
           <Metric>{selectedData?.service}%</Metric>
         </div>
-        <div>
+        <div className={selectedData?.food_taste >= 50 ? 'green' : 'orange'}>
           <Text>Food Taste</Text>
           <Metric>{selectedData?.food_taste}%</Metric>
         </div>

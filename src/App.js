@@ -26,17 +26,24 @@ function App() {
               <Metric>KPI 1</Metric>
             </Card>
           </Col>
-          <Col numColSpan={1} numColSpanLg={2}>
+          <Col numColSpan={1} numColSpanLg={1}>
             <List />
           </Col>
           <Col numColSpan={1} numColSpanLg={1}>
-            <Card>
-              <Reviews />
+            <Card className='reviews-container'>
+              <div>
+                <Reviews />
+              </div>
+              <div>
+                <Percentages />
+              </div>
             </Card>
           </Col>
-          <Card>
-            <Percentages />
-          </Card>
+          {/* <Col numColSpan={1} numColSpanLg={1}>
+            <Card>
+              <Percentages />
+            </Card>
+          </Col> */}
         </Grid>
       </div>
     </CheckedItemsContext.Provider>

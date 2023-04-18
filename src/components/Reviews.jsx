@@ -3,6 +3,29 @@ import React, { useContext } from 'react';
 import { CheckedItemsContext } from '../App';
 import data from '../utils/bbq.json';
 
+const emptyData = [
+  {
+    "name": "5 stars",
+    "value": 0
+  },
+  {
+    "name": "4 stars",
+    "value": 0
+  },
+  {
+    "name": "3 stars",
+    "value": 0
+  },
+  {
+    "name": "2 stars",
+    "value": 0
+  },
+  {
+    "name": "1 stars",
+    "value": 0
+  }
+]
+
 function Reviews() {
   const { checkedItems } = useContext(CheckedItemsContext);
 
@@ -18,7 +41,7 @@ function Reviews() {
           <Bold>Reviews</Bold>
         </Text>
       </Flex>
-      <BarList data={reviewsSelected} className='mt-2' />
+      <BarList data={reviewsSelected ? reviewsSelected : emptyData} className='mt-2' />
     </div>
   );
 }

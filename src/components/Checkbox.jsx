@@ -5,7 +5,7 @@ function Checkbox({ id }) {
   const { checkedItems, setCheckedItems } = useContext(CheckedItemsContext);
   
   const handleChange = (event) => {    
-    if(event.target.checked && checkedItems.length < 2) {
+    if(event.target.checked && checkedItems.length < 1) {
       setCheckedItems(checkedItems => [...checkedItems, id]);
     } else {
       event.target.checked = false;

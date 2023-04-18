@@ -18,7 +18,7 @@ function List() {
   const { checkedItems } = useContext(CheckedItemsContext);
 
   return (
-    <Card>
+    <Card className='table-container'>
       <Title>List of Available BBQs</Title>
       <Table className='mt-5'>
         <TableHead>
@@ -26,7 +26,7 @@ function List() {
             <TableHeaderCell></TableHeaderCell>
             <TableHeaderCell>Brand</TableHeaderCell>
             <TableHeaderCell>Device Type</TableHeaderCell>
-            <TableHeaderCell>Date Introduced</TableHeaderCell>
+            <TableHeaderCell>Date</TableHeaderCell>
             <TableHeaderCell>Price</TableHeaderCell>
           </TableRow>
         </TableHead>
